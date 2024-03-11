@@ -1,5 +1,8 @@
-.ml9 {
+.splash{
   background-color: black;
+}
+
+.ml9 {
   font-weight: 200;
   color:white;
   font-size: 4em;
@@ -22,25 +25,4 @@
   transform-origin: 50% 100%;
   display: inline-block;
   line-height: 1em;
-}
-
-
-.splash-screen {
-  opacity: 1;
-  transform: translateY(0);
-  transition: opacity 0.5s ease, transform 0.5s ease; /* Define the transition effect */
-}
-
-.splash-screen.hidden {
-  opacity: 0;
-  transform: translateY(-50px); /* Adjust the distance and direction of the transition */
-}
-
-.transition-link {
-  opacity: 1;
-  transition: opacity 0.5s ease; /* Apply the transition effect to the link */
-}
-
-.transition-link:hover {
-  opacity: 0.7; /* Optionally, you can change the opacity on hover */
 }

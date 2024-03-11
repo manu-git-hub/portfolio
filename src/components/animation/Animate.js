@@ -11,7 +11,7 @@ const initAnimation = () => {
     }).add({
       targets: '.ml9',
       opacity: 50,
-      duration: 4000,
+      duration: 1000,
       easing: "easeOutExpo",
       delay: 1000
     });

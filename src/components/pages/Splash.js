@@ -40,10 +40,12 @@ const Splash = () => {
   }, []);
 
   return (
+    <div  className="splash">
     <div className="ml9">
       <span className="text-wrapper">
         <span className="letters">Good Morning</span>
       </span>
+    </div>
     </div>
   );
 };
