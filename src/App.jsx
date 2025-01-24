@@ -9,8 +9,8 @@ import LazyLoad from "react-lazyload";
 
 const Hero = React.lazy(() => import("./components/hero/Hero"));
 const Services = React.lazy(() => import("./components/services/Services"));
-const Portfolio = React.lazy(() => import("./components/portfolio/Portfolio"));
-const Contact = React.lazy(() => import("./components/contact/Contact"));
+// const Portfolio = React.lazy(() => import("./components/portfolio/Portfolio"));
+// const Contact = React.lazy(() => import("./components/contact/Contact"));
 
 
 const App = () => {
@@ -30,7 +30,7 @@ const App = () => {
           </section>{" "}
         </LazyLoad>
       </Suspense>
-      <Suspense fallback={"loading..."}>
+      {/* <Suspense fallback={"loading..."}>
         <LazyLoad height={"600vh"} offset={-100}>
           <section id="#portfolio">
           <Portfolio />
@@ -44,7 +44,7 @@ const App = () => {
             <Contact />
           </section>{" "}
         </LazyLoad>
-      </Suspense>
+      </Suspense> */}
     </div>
   );
 };
