@@ -3,13 +3,13 @@
 // import Portfolio from "./components/portfolio/Portfolio";
 // import Contact from "./components/contact/Contact";
 
-import { lazy, Suspense } from "react";
+import { Suspense } from "react";
 import LazyLoad from "react-lazyload";
 // import Contact from "./components/contact/contact";
 
-const Hero = lazy(() => import("./components/hero/Hero"));
-const Services = lazy(() => import("./components/services/Services"));
-const Portfolio = lazy(() => import("./components/portfolio/Portfolio"));
+const Hero = React.lazy(() => import("./components/hero/Hero"));
+const Services = React.lazy(() => import("./components/services/Services"));
+const Portfolio = React.lazy(() => import("./components/portfolio/Portfolio"));
 // const Contact = lazy(() => import("./components/contact/Contact"));
 
 
