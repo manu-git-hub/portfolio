@@ -10,7 +10,7 @@ import LazyLoad from "react-lazyload";
 const Hero = React.lazy(() => import("./components/hero/Hero"));
 const Services = React.lazy(() => import("./components/services/Services"));
 const Portfolio = React.lazy(() => import("./components/portfolio/Portfolio"));
-// const Contact = lazy(() => import("./components/contact/Contact"));
+const Contact = React.lazy(() => import("./components/contact/Contact"));
 
 
 const App = () => {
@@ -38,13 +38,13 @@ const App = () => {
         </LazyLoad>
       </Suspense>
       <Contact />
-      {/* <Suspense fallback={"loading..."}>
-        <LazyLoad height={"100vh"} offset={-100}> */}
-          {/* <section id="#contact">
+      <Suspense fallback={"loading..."}>
+        <LazyLoad height={"100vh"} offset={-100}>
+          <section id="#contact">
             <Contact />
-          </section>{" "} */}
-        {/* </LazyLoad>
-      </Suspense> */}
+          </section>{" "}
+        </LazyLoad>
+      </Suspense>
     </div>
   );
 };

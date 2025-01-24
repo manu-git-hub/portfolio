@@ -145,7 +145,7 @@ const Hero = () => {
 
         
         {/* CONTACT BUTTON */}
-        {/* <motion.a
+        <motion.a
           href="/#contact"
           className="contactLink"
           animate={{
@@ -196,7 +196,7 @@ const Hero = () => {
               </svg>
             </div>
           </motion.div>
-        </motion.a> */}
+        </motion.a>
       </div>
       <div className="bg">
         {/* 3d */}
