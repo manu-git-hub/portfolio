@@ -9,7 +9,7 @@ import LazyLoad from "react-lazyload";
 
 const Hero = React.lazy(() => import("./components/hero/Hero"));
 const Services = React.lazy(() => import("./components/services/Services"));
-// const Portfolio = React.lazy(() => import("./components/portfolio/Portfolio"));
+const Portfolio = React.lazy(() => import("./components/portfolio/Portfolio"));
 // const Contact = React.lazy(() => import("./components/contact/Contact"));
 
 
