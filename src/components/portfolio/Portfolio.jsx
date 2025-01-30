@@ -5,21 +5,21 @@ import { motion, useInView, useScroll, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
-    img: "/ragooty.jpg",
+    img: "/ragooty.png",
     title: "Full Stack Blog Application",
     desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure laboriosam tempore consectetur, atque maiores culpa quia, repellat id, dicta esse fugit neque voluptatem provident itaque voluptates minima. Repudiandae, provident hic.",
     link: "/",
   },
   {
     id: 2,
-    img: "/skhv.jpg",
+    img: "/skhv.png",
     title: "School Management System",
     desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure laboriosam tempore consectetur, atque maiores culpa quia, repellat id, dicta esse fugit neque voluptatem provident itaque voluptates minima. Repudiandae, provident hic.",
     link: "/",
   },
   {
     id: 3,
-    img: "/trustcliff.jpg",
+    img: "/trustcliff.png",
     title: "Real-time Chat Application",
     desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure laboriosam tempore consectetur, atque maiores culpa quia, repellat id, dicta esse fugit neque voluptatem provident itaque voluptates minima. Repudiandae, provident hic.",
     link: "/",
